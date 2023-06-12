@@ -1,0 +1,11 @@
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 30px;
+    font-size: 20px;
+}
+.header-links{
+    font-size: 15px;
+    display: inline-block
+}
