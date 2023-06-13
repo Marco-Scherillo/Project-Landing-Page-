@@ -1,6 +1,6 @@
 h1 {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 .Logo {
     font-size: 35px;
@@ -19,9 +19,9 @@ h1 {
 }
 
 h2 {
-    font-size: larger;
     display: flex;
-    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
     align-items: center;
 }
 
@@ -32,9 +32,8 @@ title {
 .text-container{
     flex: 1;
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
-    flex-wrap: wrap;
+    
 }
 
 .large-text {
@@ -54,13 +53,15 @@ p {
 b {
     display: flex;
     justify-content: flex-start;
+    
 }
 .pic-container {
-    margin-left: 20px;
+    display: flex;
+    align-content: flex-end;
 }
 .picture-1{
-    width: 100px;
+    width: 300px;
     height: auto;
-    margin-left: 20px;
+    margin-left: 100px; 
    
 }
