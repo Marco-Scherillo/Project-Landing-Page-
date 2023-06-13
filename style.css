@@ -21,14 +21,31 @@ h1 {
 h2 {
     font-size: larger;
     display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }
 
-.text {
+title {
     font-size: xx-large;
 }
+
+.text-container{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.large-text {
+    font-size: x-large;
+}
+
+.small-text {
+    font-size: small;
+
+}
+
 
 p {
     display: flex;
@@ -38,9 +55,12 @@ b {
     display: flex;
     justify-content: flex-start;
 }
+.pic-container {
+    margin-left: 20px;
+}
 .picture-1{
     width: 100px;
     height: auto;
-    display: flex;
+    margin-left: 20px;
    
 }
