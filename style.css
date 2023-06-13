@@ -1,11 +1,19 @@
-.logo {
+h1 {
     display: flex;
-    justify-content: flex-start;
-    padding: 20px;
-    margin: 30px;
-    font-size: 20px;
+    align-items: center;
 }
-.header-links{
+.Logo {
+    font-size: 35px;
+}
+.header-links {
+    list-style-type: none;
+    display: flex;
+    margin-left: 20px;
+    padding: 0;
+    margin-left: auto;
+}
+
+.header-links li {
+    margin-right: 10px;
     font-size: 15px;
-    display: inline-block
 }
