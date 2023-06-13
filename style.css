@@ -17,3 +17,30 @@ h1 {
     margin-right: 10px;
     font-size: 15px;
 }
+
+h2 {
+    font-size: larger;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.text {
+    font-size: xx-large;
+}
+
+p {
+    display: flex;
+    justify-content: flex-start;
+}
+b {
+    display: flex;
+    justify-content: flex-start;
+}
+.picture-1{
+    width: 100px;
+    height: auto;
+    display: flex;
+   
+}
