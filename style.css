@@ -1,3 +1,8 @@
+.first-top {
+    background-color: #1f2937;
+}
+
+
 h1 {
     display: flex;
     justify-content: center;
@@ -47,9 +52,6 @@ h1 {
     height: 600px;
     margin-right: 500px;
 }
-body {
-    background-color: #1f2937;
-}
 
 b {
     background-color: #008CBA;
@@ -67,12 +69,27 @@ b {
 }
 
 .center-images {
+    list-style-type: none;
     display: flex;
-    size-adjust: 50px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.center-images img {
+    width: 200px;
+    height: 200px;
 }
 
 .center-images li {
     display: flex;
-    
+    flex-direction: column;
+}
+
+.image-title {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+h4 {
+    background-color: gray;
 }
