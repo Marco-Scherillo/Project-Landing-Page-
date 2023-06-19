@@ -11,7 +11,7 @@ h1 {
 .Logo {
     color: white;
     font-size: 48px;
-    padding-left: 200px;
+    padding-left: 400px;
     padding-right: 100px;
 }
 .header-links {
@@ -20,7 +20,7 @@ h1 {
     margin-left: 20px;
     padding: 0;
     margin-left: auto;
-    margin-right: 500px;
+    margin-right: 300px;
     
 }
 
@@ -43,17 +43,17 @@ h1 {
 }
 
 .text-container {
-    padding-left: 200px;
+    padding-left: 400px;
     padding-right: 100px;
   
 }
 
 .picture-1 {
     height: 600px;
-    margin-right: 500px;
+    margin-right: 300px;
 }
 
-b {
+h2 b {
     background-color: #008CBA;
     border: none;
   color: white;
@@ -61,7 +61,7 @@ b {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .middle-1 {
@@ -72,11 +72,14 @@ b {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    margin-right: 300px;
+    margin-left: 300px;
 }
 
 .center-images img {
     width: 200px;
     height: 200px;
+    border: 5px solid lightskyblue;
 }
 
 .center-images li {
@@ -92,4 +95,52 @@ b {
 
 h4 {
     background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+
+h4 p1 {
+    font-size: 36px;
+    margin-left: 450px;
+}
+
+h4 p2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 450px;
+}
+
+h5 {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+h5 div1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+}
+
+h5 div1 p1 {
+    font-size: 35px;
+}
+h5 div1 p2 {
+    font-size: 20;
+}
+h5 div2 {
+    display: flex;
+}
+
+h5 b {
+    background-color: #008CBA;
+    border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: auto;
 }
